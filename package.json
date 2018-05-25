@@ -1,0 +1,24 @@
+{
+  "name": "Magento 1 User Guide Summary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gitbook serve",
+    "prod": "gitbook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oggetto-academy/m1-user-guide.git"
+
+  },
+  "author": "Oggetto Academy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oggetto-academy/m1-user-guide/issues"
+  },
+  "homepage": "https://github.com/oggetto-academy/m1-user-guide#readme",
+  "devDependencies": {
+  }
+}
