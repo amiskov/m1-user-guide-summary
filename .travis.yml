@@ -2,12 +2,12 @@ language: node_js
 node_js:
   - lts/*
 script:
-  - npm install -g gitbook-cli
-  - npm run prod
+  - npm install -g vuepress
+  - vuepress build
 deploy:
   provider: pages
   skip_cleanup: true
   # GITHUB_TOKEN — код, обеспечивающий интеграцию Тревиса и Гитхаба.
   # Нужно сгенерировать тут: https://github.com/settings/tokens и добавить в настройки репозитория в Тревисе
   github_token: $GITHUB_TOKEN
-  local_dir: _book
+  local_dir: .vuepress/dist
