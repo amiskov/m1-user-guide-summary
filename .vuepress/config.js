@@ -3,8 +3,11 @@ module.exports = {
     description: '',
     base: '/m1-user-guide-summary/',
     themeConfig: {
+        sidebarDepth: 2,
+        displayAllHeaders: true,
         sidebar: [
-            '/basic'
+            '/basic',
+            '/product-catalog'
         ]
     }
 }
