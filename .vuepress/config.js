@@ -2,7 +2,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/oggetto-academy/m1-user-guide-summary/master/favicon.ico'}]
     ],
-    title: 'Конспект по Magento',
+    title: 'Конспект по Magento 1',
     description: '',
     base: '/m1-user-guide-summary/',
     themeConfig: {
