@@ -25,7 +25,8 @@ module.exports = {
                 children: [
                     'product/navigation',
                     'product/categories',
-                    'product/managing_attributes'
+                    'product/managing_attributes',
+                    'product/creating_products'
                 ]
             }
         ]

@@ -33,14 +33,11 @@ __Input Types__
   </tr>
   <tr>
     <th>Media Image</th>
-    <td>Gives you the ability to associate an image with a product, that is something other than a product image. For example, you might include the product logo, 
-    care instructions, or an image of the ingredients from a food label. When you add a media image attribute to the attribute set of a product, it becomes an additional
-    image type, along with Base, Small, and Thumbnail. The media image attribute can be excluded from the thumbnail gallery, but is still available to be used</td> 
+    <td>Изображение</td> 
   </tr>
   <tr>
     <th>Fixed Product Tax</th>
-    <td> Налог. Lets you define FPT rates based on the requirements of your
-        locale. To learn more, see: General Tax Settings</td> 
+    <td>Налог</td> 
   </tr>
 </table>
 
@@ -156,7 +153,7 @@ __Описание свойств__
    
 ## Attribute Frontend Properties
 Свойства Frontend определяют, как атрибут может использоваться в вашем магазине. Вы можете указать, как используются атрибуты в поиске, многоуровневой навигации, сравнения продуктов, 
-ценовых правил и сортировки. Для текстовых атрибутов вы можете включить редактор WYSIWYG и указать, можно ли использовать HTML-теги для форматирования значения.
+ценовых правилах и сортировке. Для текстовых атрибутов вы можете включить редактор WYSIWYG и указать, можно ли использовать HTML-теги для форматирования значения.
 
 __Описание свойств__
 <table>
@@ -170,14 +167,44 @@ __Описание свойств__
   </tr>
   <tr>
     <th>Comparable on Front-end</th>
-    <td>Выберите «Yes», чтобы включить этот атрибут в строку в отчете «Сравнение продуктов». Опции включают Yes/No</td> 
+    <td>Выберите «Yes», чтобы включить этот атрибут в строку в отчете «Сравнение продуктов». Опции включают: Yes/No</td> 
   </tr>
   <tr>
     <th>Use In Layered Navigation</th>
-    <td>(Только для раскрывающегося списка, нескольких типов выбора и цены) Включает атрибут в качестве фильтра в разделе «Магазин» многоуровневой навигации. Варианты включают:</td> 
+    <td>Только для раскрывающегося списка(Dropdow), нескольких типов выбора(Multiple Select) и цены(Price). Включает атрибут в качестве фильтра в разделе 
+    многоуровневой навигации. Опции включают: No/Filterable(with results)/Filterable(no results</td> 
   </tr>
   <tr>
     <th>Comparable on Front-end</th>
     <td>Выберите «Yes», чтобы включить этот атрибут в отчет «Сравнение продуктов». Опции включают: Yes/No</td> 
   </tr>
+  <tr>
+    <th>Use for Promo Rule Conditions</th>
+    <td>Чтобы сделать атрибут доступным для использования в ценовых правилах, выберите «Yes». Опции включают: Yes/No</td> 
+  </tr>
+    <tr>
+      <th>Position</th>
+      <td>Определяет положение атрибута в многоуровневой навигации относительно других фильтруемых атрибутов</td> 
+    </tr>
+    <tr>
+      <th>Enable WYSIWYG</th>
+      <td>Только для текстовой области(Text Area). Чтобы отобразить редактор при вводе или редактировании значения атрибута, выберите «Yes». Опции включают: Yes/No</td> 
+    </tr>
+    <tr>
+      <th>Allow HTML Tags on Frontend</th>
+      <td>Чтобы форматировать значение атрибута с помощью тэгов HTML, выберите «Yes». Опции включают: Yes/No</td> 
+    </tr>
+    <tr>
+      <th>Visible on Product View Page on Front-end</th>
+      <td>Только для простых и виртуальных продуктов. Чтобы включить атрибут, выберите «Yes» на вкладке «Additional Information» на странице продукта. Опции включают: Yes/No</td> 
+    </tr>
+    <tr>
+      <th>Used in Product Listing</th>
+      <td>В зависимости от темы включает атрибут в сводке продуктов, который отображается в списках каталогов, 
+      а также делает этот атрибут доступным для использования в правилах умных категорий (Smart Category Rules). Опции включают: Yes/No</td> 
+    </tr>
+    <tr>
+      <th>Used for Sorting in Product Listing</th>
+      <td>В зависимости от темы даёт возможность сортировать по этому атрибуту в каталоге. Опции включают: Yes/No</td> 
+    </tr>
 </table>
