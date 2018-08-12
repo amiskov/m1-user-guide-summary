@@ -26,7 +26,10 @@ module.exports = {
                     'product/navigation',
                     'product/categories',
                     'product/managing_attributes',
-                    'product/creating_products'
+                    'product/creating_products',
+                    'product/product_pricing',
+                    'product/inventory',
+                    'product/product_information'
                 ]
             }
         ]
