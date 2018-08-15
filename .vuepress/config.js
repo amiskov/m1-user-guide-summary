@@ -31,6 +31,17 @@ module.exports = {
                     'product/inventory',
                     'product/product_information'
                 ]
+            },
+            {
+                title: 'Search & SEO',
+                collapsable: true,
+                children: [
+                    'search/tools',
+                    'search/search_configuration',
+                    'search/managing_terms',
+                    'search/seo_optimization',
+                    'search/url_redirects'
+                ]
             }
         ]
     }
