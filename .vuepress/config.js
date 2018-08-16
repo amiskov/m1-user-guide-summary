@@ -42,6 +42,13 @@ module.exports = {
                     'search/seo_optimization',
                     'search/url_redirects'
                 ]
+            },
+            {
+                title: 'Marketing & Promotions',
+                collapsable: true,
+                children: [
+                    'promotions/promotions'
+                ]
             }
         ]
     }
